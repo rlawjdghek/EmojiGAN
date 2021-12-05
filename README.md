@@ -1,12 +1,12 @@
 # EmojiGAN for Final Project of Deep Generative Models
 
 ### Environment
-pytorch==1.10.0
-torchvision==0.9.0
-transformers==4.12.5
-huggingface-hub==0.2.0
-einops=0.3.2
-tokenizers=0.10.3
+pytorch==1.10.0\
+torchvision==0.9.0\
+transformers==4.12.5\
+huggingface-hub==0.2.0\
+einops=0.3.2\
+tokenizers=0.10.3\
 CUDA==11.3
 
 ### Dataset
