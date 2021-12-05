@@ -26,7 +26,7 @@ python main.py --mode test_from_tokenizer --test_pickle_path <pickle file path f
 ### Test from tokenizer
 You can generate emojitons from the Korean sentences. 
 ```bash
-python main.py --mode test_from_tokenizer 
+python main.py --mode test_from_tokenizer --test_pickle_path <Your pickle path for the test>
 ```
 
 
