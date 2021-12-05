@@ -71,7 +71,7 @@ def build_args():
     parser.add_argument("--G_load_path", type=str, default="./test/test_model/<enterprise_name>_token7_latent200/G_lowiter.pth")
     parser.add_argument("--D_load_path", type=str, default="./test/test_model/<enterprise_name>_token7_latent200/D_lowiter.pth")
     parser.add_argument("--test_img_save_dir", type=str, default="./test/test_images/only_joypixel_train/")
-    parser.add_argument("--use_pruning", type=bool, default=False)  ####
+    parser.add_argument("--use_pruning", action="store_true")  ####
     parser.add_argument("--pruning_rest_ratio", type=float, default=0.3)
 
     #### config ####
